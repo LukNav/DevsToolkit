@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevsToolkit", "DevsToolkit\DevsToolkit.csproj", "{6E3C94F3-9A45-40CE-B683-C258A06A0BF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Playground.csproj", "{6E3C94F3-9A45-40CE-B683-C258A06A0BF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonTools", "JsonTools\JsonTools.csproj", "{BB99068E-7FA4-4912-9D9D-A229F480D121}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevsToolkit", "DevsToolkit\DevsToolkit.csproj", "{D0D0F924-79A8-482D-AA6D-E11EA5B7F531}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +16,13 @@ Global
 		{6E3C94F3-9A45-40CE-B683-C258A06A0BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E3C94F3-9A45-40CE-B683-C258A06A0BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E3C94F3-9A45-40CE-B683-C258A06A0BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB99068E-7FA4-4912-9D9D-A229F480D121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB99068E-7FA4-4912-9D9D-A229F480D121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB99068E-7FA4-4912-9D9D-A229F480D121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB99068E-7FA4-4912-9D9D-A229F480D121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D0F924-79A8-482D-AA6D-E11EA5B7F531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D0F924-79A8-482D-AA6D-E11EA5B7F531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D0F924-79A8-482D-AA6D-E11EA5B7F531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D0F924-79A8-482D-AA6D-E11EA5B7F531}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
