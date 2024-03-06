@@ -23,7 +23,7 @@ public static class JsonExtensions
 
             var rowReplaced = replaceMap
                 .ToList()
-                .Any(rm=>TryReplaceColumn(jNode, column, rm.Key, rm.Value));
+                .Any(rm=>TryReplaceRow(jNode, column, rm.Key, rm.Value));
             anyReplaced = anyReplaced || rowReplaced;
         }
 
@@ -31,7 +31,7 @@ public static class JsonExtensions
     }
     
     
-    public static bool TryReplaceColumn(this JsonNode jNode, string column, string replaceKey, string replaceValue)
+    public static bool TryReplaceRow(this JsonNode jNode, string column, string replaceKey, string replaceValue)
     {
         var row = jNode[column]?.ToString();
         if (row != null && row.Contains(replaceKey))

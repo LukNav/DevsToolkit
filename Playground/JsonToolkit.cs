@@ -10,7 +10,7 @@ public class JsonToolkit
     [Test]
     public void DistinctRowsFromJsonFile()
     {
-        string jsonFilePath = "C:\\Work\\adform-logs-live\\Adform.Logs.Live\\bin\\Debug\\AllLogs_NoUrlOverride.txt";
+        string jsonFilePath = "C:\\Work\\adform-logs-live\\Adform.Logs.Live\\bin\\Debug\\!_result.txt";
         string distinctByColumn= "Url";
 
         string jsonFile = File.ReadAllText(jsonFilePath);
@@ -23,7 +23,7 @@ public class JsonToolkit
     [Test]
     public void FindAndReplaceRowsInJsonFile()
     {
-        string jsonFilePath = "C:\\Work\\adform-logs-live\\Adform.Logs.Live\\bin\\Debug\\AllLogs_NoUrlOverride - Copy.txt";
+        string jsonFilePath = "C:\\Work\\adform-logs-live\\Adform.Logs.Live\\bin\\Debug\\!_result.txt";
         string column = "Url"; // Json object title in question
         Dictionary<string, string> replaceMap = new()
         {
